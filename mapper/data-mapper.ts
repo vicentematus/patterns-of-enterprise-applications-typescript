@@ -1,4 +1,4 @@
-import { db } from "../db-initialize";
+import { db } from "../database/db-initialize";
 class DataMapper {
   find() {}
 }
