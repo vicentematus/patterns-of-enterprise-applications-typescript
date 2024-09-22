@@ -1,7 +1,7 @@
-import { db } from "../db-initialize";
-import { generateMockUsers } from "../mocks/user.mock";
-import type { User } from "../models";
-import { GREEN_TEXT } from "../utils";
+import { db } from "../database/db-initialize";
+import { generateMockUsers } from "../database/mocks/user.mock";
+import type { User } from "../database/models";
+import { GREEN_TEXT } from "../utils/utils";
 
 // Unit of Work
 // Maintains a list of objects affected by a business transaction and coordinates the writing out of changes and the resolution of concurrency problems.
