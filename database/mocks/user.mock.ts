@@ -1,4 +1,4 @@
-import type { User } from "../models";
+import type { User } from "../database/models";
 
 export function generateMockUsers({ count }: { count: number }) {
   const mockUsers = [];
